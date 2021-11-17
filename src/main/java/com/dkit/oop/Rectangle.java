@@ -39,6 +39,6 @@ public class Rectangle extends Shape{
     @Override
     public String toString() {
         // call superclass toString method to get Shape details
-        return super.toString() + "[Width=" + this.width + "]\n[Length=" + this.length + "]";
+        return super.toString() + "[Width=" + this.width + "]\n[Length=" + this.length + "]"+"[Area=" + this.area() + "]";
     }
 }
