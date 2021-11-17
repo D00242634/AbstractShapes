@@ -20,6 +20,9 @@ public class App
         Circle c1 = new Circle(1,2,5);
         System.out.println(c1.toString());
 
+        Rectangle r1 = new Rectangle (2,3 , 4, 5);
+        System.out.println(r1.toString());
+
         //TODO
         // implement the Rectangle class (see skeleton Rectangle class).
         // instantiate a Rectangle object r1, and output its details.
