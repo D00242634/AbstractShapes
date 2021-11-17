@@ -41,4 +41,9 @@ public class Rectangle extends Shape{
         // call superclass toString method to get Shape details
         return super.toString() + "[Width=" + this.width + "]\n[Length=" + this.length + "]"+"[Area=" + this.area() + "]";
     }
+
+    @Override
+    public double perimiter() {
+        return (2*this.width)+2*(this.length);
+    }
 }

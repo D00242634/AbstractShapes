@@ -44,7 +44,7 @@ public abstract class Shape {
      * (see Rectangle::area() and Circle::area() for implementations)
      */
     public abstract double area();   // no method body is allowed in an abstract method
-
+    public abstract double perimiter();
 
     // methods common to all Shape objects
     public int getX() { return x; }
@@ -56,4 +56,6 @@ public abstract class Shape {
         return this.getClass().getName() +
                 "(x=" + this.x + ",y=" + this.y + ")";
     }
+
+
 }

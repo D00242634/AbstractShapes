@@ -41,4 +41,9 @@ public class Circle extends Shape {
         return super.toString() + "[radius=" + this.radius + "]";
     }
 
+    @Override
+    public double perimiter() {
+        return 2*(3.14)*this.radius;
+    }
+
 }
